@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+  }
+
+  header {
+    width: 100%;
+    
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 105px;
+    
+    
+  }
+
+  .bar li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 20px;
+    margin-top: 0px;
+    color: #999999;
+    
+  }
+
+  .top h1 {
+    display: flex;
+    flex-shrink: shrink;
+    margin-top: 8px;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    
+  }
+
+  .blog {
+    display: flex;
+    
+  }
+
+  .contact {
+    display: flex;
+    margin-left: 550px;
+    margin-top: 0;
+    
+    
+  }
+
+ .img {
+    height: 500px;
+    background-image: url("img/Mask Group 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+
+  .container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    line-height: 1px;
+  }
+
+  .first-row-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+       
+    
+  }
+
+  .img-one {
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    
+}
+
+.pic-one {
+  height: 150px;
+  width: 250px;
+  background-image: url("img/DSC69161.png");
+  background-size: cover;
+}
+
+.title-text {
+  font-size: 10px;
+}
+
+button {
+  font-size: 10px;
+}
+
+
+.img-two {
+  height: 300px;
+  width: 250px;
+  margin: 20px;
+  
+
+}
+
+.pic-two {
+  height: 150px;
+  width: 250px;
+  background-image: url("img/DSC69521.png");
+  background-size: cover;
+}
+
+.img-three {
+  height: 300px;
+  width: 250px;
+  margin: 20px;
+  
+
+}
+
+.pic-three {
+  height: 150px;
+  width: 250px;
+  background-image: url("img/DSC6954.png");
+  background-size: cover;
+}
+
+.inst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  
+  
+  
+  
+}
+
+.image-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  height: 400px;
+  width: 80%;
+  margin-left: 60px;
+}
+
+.grid-item {
+    background-color: red;
+}
+
+.grid-one {
+    grid-row: 1 /span 2;
+    grid-column: 1 / span 2;
+    background-image: url("img/fmx_interior_design_co_xiamen_china_kitchen_bath_bedroom.png");
+    background-size: cover;
+}
+
+.grid-two {
+  grid-row: 1;
+  grid-column: 3;
+  background-image: url("img/fmx_interior_design_co_xiamen_china_kitchen_bath_boulder.png");
+  background-size: cover;
+  
+}
+
+.grid-three {
+  grid-row: 1;
+  grid-column: 4;
+  background-image: url("img/fmx_interior_design_co_xiamen_china_kitchen_bath_open_plan_glass_box.png");
+  background-size: cover;
+}
+
+.grid-four {
+  grid-row: 2;
+  grid-column: 3;
+  background-image: url(img/fmx_interior_design_co_xiamen_china_kitchen_bath_dining_area.png);
+  background-size: cover;
+}
+
+.grid-five {
+  grid-row: 2;
+  grid-column: 4;
+  background-image: url("img/DSC69161.png");
+  background-size: cover;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+  
+}
+
+.one {
+  height: 35px;
+  width: 20px;
+  margin: 20px;
+  background-image: url("img/fb.png");
+  
+}
+
+.two {
+  height: 40px;
+  width: 50px;
+  margin: 20px;
+  background-image: url("img/.png");
+  background-size: cover;
+  
+  
+}
+
+.three {
+  height: 40px;
+  width: 50px;
+  margin: 20px;
+  background-image: url("img/.png");
+  background-size: cover;
+  
+}
+
+.four {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  background-image: url("img/.png");
+  background-size: cover;
+  
+}
+
+.border {
+  border-bottom: 1px;
+    border-style: solid;
+    border-color: #707070;
+    margin-top: 30px;
+    width: 65%;
+}
+
+.border-one{
+  border-bottom: 1px;
+    border-style: solid;
+    border-color: #707070;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.border-two{
+  border-bottom: 1px;
+    border-style: solid;
+    border-color: #707070;
+    margin-top: 30px;
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .small-100 {
+    width: 100%;
+  }
+}
+
+
+
+  
+
+  
+  
+
+  
+
+  
+
+  
