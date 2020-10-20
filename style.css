@@ -13,7 +13,7 @@ body {
   }
 
   header {
-    width: 100%;
+    /*width: 100%;*/
     
   }
 
@@ -81,7 +81,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    /*width: 100%;*/
     
   }
 
@@ -99,12 +99,13 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /*width: 100%;*/
        
     
   }
 
   .img-one {
+    
     height: 300px;
     width: 250px;
     margin: 20px;
@@ -128,6 +129,7 @@ button {
 
 
 .img-two {
+  
   height: 300px;
   width: 250px;
   margin: 20px;
@@ -143,6 +145,7 @@ button {
 }
 
 .img-three {
+  
   height: 300px;
   width: 250px;
   margin: 20px;
@@ -290,9 +293,21 @@ button {
 }
 
 @media screen and (max-width: 576px) {
-  .small-100 {
-    width: 100%;
+  .image-grid {
+    width: 60%
   }
+  header{
+    width: 80%;
+  }
+  .bar{
+    width: 60%;
+  }
+ .contact{
+   margin-left: 0%;
+ }
+ .pictures{
+   width: 30%;
+ }
 }
 
 
